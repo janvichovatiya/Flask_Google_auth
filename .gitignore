@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Environment variables (never push secrets!)
+.env
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database files (if using SQLite locally)
+*.sqlite3
+instance/
+
+# Flask specific
+*.db
+*.pid
+
+# Byte-compiled / optimized files
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Coverage / Testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
